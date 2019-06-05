@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   <title>project</title>
- 
- 
+  <link rel="stylesheet" href="style/booking.css">
 </head>
+  <script src="scripts/booking.js"></script>
 <body>
+  <div class="booking-container">
+    <form action="">
+      <p>Reserve your next table online</p>
+      <select>
+        <option value="one-guest">1 person</option>
+        <option value="two-guests">2 people</option>
+        <option value="three-guests">3 people</option>
+        <option value="four-guests">4 people</option>
+        <option value="five-guests">5 people</option>
+        <option value="six-guests">6 people</option>
+        <option value="seven-guests">7 people</option>
+        <option value="eight-guests">8 people</option>
+      </select>
+      <input type="date" name="book-date" value="2019-06-05" min="2019-06-05" max="2019-07-31">
+      <input type="time" name="book-time" value="9:30" min="8:00" max="23:00" required>
+      <input type="submit" name>
+    </form>
+  </div>
 
+  <!-- MODAL -->
+  
 </body>
+
 </html>
