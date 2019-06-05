@@ -1,0 +1,25 @@
+/*@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");*/
+html, body {
+        height: 100%;
+        margin: 0;
+        background-image: url("https://images.pexels.com/photos/2287523/pexels-photo-2287523.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+
+div{
+
+    padding: 20px;
+    margin: 20px;
+}
+.div_container
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(250,250,250, 0.7);
+    height: 100%;
+    display: flex;
+}
+
+h2{
+    color: rgb(red, green, rgb(90, 11, 5));
+    font-size: 20px;
+}
