@@ -1,51 +1,114 @@
 .booking-container {
-  background-image: url('../img/bg-book.jpg');
+  background-image: url("../img/img1.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 30vh;
+  height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-flow: column;
 }
-.booking-container p {
+.booking-container p{
   font-size: 5vh;
-  color: #284158;
+  color: white;
+  font-weight: bold;
+
 }
-.container {
-  width: 500px;
-  margin: 50px auto;
-}
-.open-modal {
-  background-color: #5cf9d2;
+.book-btn{
+  font-size: 4vh;
+  background-color: #474e2c6a;
+  border-radius: 12px;
+  color: white;
   border: none;
-  border-radius: 4px;
-  color: #fff;
-  outline: none;
-  padding: 20px 40px;
-  text-transform: uppercase;
 }
-.open-modal:hover {
-  background-color: #bff2e5;
+.book-btn:hover{
+  background-color: #474e2c8a;
 }
 .modal {
-  background-color: #dbd9d9;
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 200px;
-  margin-left: -200px;
-  margin-top: -150px;
-  padding: 50px;
-  border-radius: 5px;
-  z-index: 10;
-  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
-.close-modal {
-  color: #000;
-  text-decoration: none;
-  float: right;
-  position: absolute;
-  top: 10px;
-  right: 20px;
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #b9b9b9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-image: url("../img/img3.jpeg");
+    color: white;
+    
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-image: url("../img/img3.jpeg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-btn{
+  font-size: 2.5vh;
+  background-color: #2b140c91;
+  border-radius: 12px;
+  color:white;
+  border: none;
+}
+.modal-btn:hover{
+  background-color: #08040291;
+}
+
+.book-info {
+    width: 100%;
 }
