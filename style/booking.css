@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  text-align: center;
 }
 .booking-container p{
   font-size: 5vh;
@@ -14,12 +15,15 @@
   font-weight: bold;
 
 }
-.book-btn{
+.book-btn {
   font-size: 4vh;
-  background-color: #474e2c6a;
-  border-radius: 12px;
-  color: white;
+  background-color: #11130b6a;
+  border-radius: 6px;
+  color: #040303;
   border: none;
+  text-transform: uppercase;
+  padding: 5px 33px;
+  transition: 0.3s;
 }
 .book-btn:hover{
   background-color: #474e2c8a;
@@ -86,11 +90,15 @@
 }
 
 .modal-body {
-    padding: 2px 16px;
+  padding: 34px 44px;
+}
+
+.form-modal input,select{
+  margin: 10px 0;
 }
 
 .modal-footer {
-    padding: 2px 16px;
+    padding: 17px 16px;
     background-image: url("../img/img3.jpeg");
     color: white;
     display: flex;
@@ -99,6 +107,7 @@
 }
 
 .modal-btn{
+  padding: 0.3rem 3rem;
   font-size: 2.5vh;
   background-color: #2b140c91;
   border-radius: 12px;

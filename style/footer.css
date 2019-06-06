@@ -1,0 +1,134 @@
+.text-center{
+    text-align: center;
+    margin-top: 30px;
+}
+.justify-content-between{
+    justify-content: space-between
+}
+.pl-3{padding-left: 3rem }
+.pr-3{padding-right: 3rem;}
+footer .container-fluid {
+    background-image: url('/img/bg-footer.jpg');
+    padding: 0;
+    margin: 153px 0 0; }
+    footer .container-fluid .text-center h2 {
+      text-transform: uppercase;
+      color: #232323;
+      font-size: 40px; 
+    padding-top: 30px}
+      footer .container-fluid .text-center h2{
+          color: #f3f3f3
+      }
+      footer .container-fluid .text-center h2 span {
+        color: #009dda; }
+    footer .container-fluid .text-center p {
+      width: 65%;
+      margin: 0 auto;
+      font-size: 14px;
+      color: #9a9999;
+      padding: 7px 0 32px; }
+    footer .container-fluid .map_wrapper {
+      width: 100%;
+      height: 635px;
+      position: relative; }
+      footer .container-fluid .map_wrapper #map {
+        width: 100%;
+        height: 635px; }
+      footer .container-fluid .map_wrapper .contact_wrap {
+        display: flex;
+        position: absolute;
+        z-index: 0;
+        margin: 0 auto;
+        background-color: rgba(26, 26, 26, 0.529);
+        height: 391px;
+        width: 59%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        footer .container-fluid .map_wrapper .contact_wrap .inputs {
+          font-family: "Lato", serif;
+          position: relative;
+          width: 64%;
+          padding: 50px;
+          color: #9a9999; }
+          footer .container-fluid .map_wrapper .contact_wrap .inputs button {
+            background: #ffff00;
+            position: absolute;
+            border-radius: 5px;
+            bottom: 15px;
+            right: 50px;
+            padding: 10px 25px; }
+          footer .container-fluid .map_wrapper .contact_wrap .inputs label {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #9a9999; }
+          footer .container-fluid .map_wrapper .contact_wrap .inputs input {
+            background: transparent;
+            border: 1px solid #9a9999;
+            padding: 20px; }
+            footer .container-fluid .map_wrapper .contact_wrap .inputs input:nth-of-type(2) {
+              margin-left: 20px; }
+          footer .container-fluid .map_wrapper .contact_wrap .inputs .styled-checkbox {
+            margin-top: 10px;
+            position: absolute;
+            opacity: 0; }
+            footer .container-fluid .map_wrapper .contact_wrap .inputs .styled-checkbox + label {
+              position: relative;
+              cursor: pointer;
+              padding: 0; }
+            footer .container-fluid .map_wrapper .contact_wrap .inputs .styled-checkbox + label:before {
+              content: "";
+              margin-right: 10px;
+              display: inline-block;
+              vertical-align: text-top;
+              width: 20px;
+              height: 20px;
+              background: transparent;
+              border: 1px solid #9a9999; }
+            footer .container-fluid .map_wrapper .contact_wrap .inputs .styled-checkbox:checked + label:after {
+              font-family: FontAwesome, serif;
+              position: absolute;
+              left: 2px;
+              top: 0;
+              background: transparent;
+              width: 10px;
+              height: 10px;
+              color: #ffff00;
+              content: ""; }
+          footer .container-fluid .map_wrapper .contact_wrap .inputs textarea {
+            width: 100%;
+            background: transparent;
+            border: 1px solid #9a9999;
+            margin-top: 30px;
+            color: #9a9999;
+            padding: 20px 0 0 20px; }
+        footer .container-fluid .map_wrapper .contact_wrap .contact_info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          vertical-align: center;
+          width: 30%;
+          padding-left: 42px; }
+          footer .container-fluid .map_wrapper .contact_wrap .contact_info p {
+            font-size: 16px;
+            font-family: "Lato", serif;
+            color: #f3f3f3; }
+    footer .container-fluid .smallFooter {
+      font-family: "Lato", serif;
+      background: #1a1a1a; 
+    display: flex;
+justify-content: space-between}
+      footer .container-fluid .smallFooter p {
+        font-size: 16px;
+        color: #7a7a7a;
+        padding: 20px 30px;
+        margin-bottom: 0 !important; }
+        footer .container-fluid .smallFooter .social {
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+      footer .container-fluid .smallFooter .social i {
+        padding: 10px; }
+      footer .container-fluid .smallFooter .social a {
+        padding: 10px; }

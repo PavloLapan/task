@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style/css/style.css">
   <link rel="stylesheet" href="style/booking.css">
+  <link rel="stylesheet" href="style/footer.css">
 
 
 </head>
@@ -18,7 +19,7 @@
 <body>
 
   <header>
-    <div class="container-fluid">
+    <div class="container-fluid-full">
       <div class="row">
         <div class="wrapper">
           <img class="logo" src="/img/logo.png" alt="">
@@ -41,7 +42,7 @@
           <h2>Book table</h2>
         </div>
         <div class="modal-body">
-            <form action="">
+            <form class="form-modal" action="">
               <label for="name"><b>Your name:</b></label><br>
               <input class="book-info" type="text" id="name" id="nameTextField" placeholder="Name" required><br>
               <label for="phone"><b>Phone:</b></label><br>
@@ -57,7 +58,7 @@
                 <option value="seven-guests">7 people</option>
                 <option value="eight-guests">8 people</option>
               </select><br />
-              <label for="book-date"><b>Date:</b></label>><br>
+              <label for="book-date"><b>Date:</b></label><br>
               <input class="book-info" type="date" id="book-date" value="2019-06-05" min="2019-06-05"
                 max="2019-07-31"><br>
               <label for="book-time"><b>Time:</b></label><br>
@@ -75,11 +76,67 @@
 
 
 
+  <!-- FOOOOOOTER÷ -->
+  <footer class="footer" id="footer">
+    <div class="container-fluid">
+        <div class="text-center">
+            <h2>get in <span>touch</span></h2>
+            <p>Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.
+                Nullam at scelerisque tellus mattis volutpat rhoncus,</p>
+        </div>
+        <div class="map_wrapper">
+            <div id="map">
+
+            </div>
+            <div class="contact_wrap d-flex">
+                <div class="inputs" id="form1">
+                    <div class="row justify-content-between pl-3 pr-3">
+                        <input class="checkName col-5" type="text" placeholder="Full Name">
+                        <input class="checkEmail col-5" type="email" placeholder="E-mail Address">
+                    </div>
+                    <textarea class="checkMessage" name="" cols="30" rows="9" placeholder="Message"></textarea>
+                    <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox">
+                    <label class="label" for="styled-checkbox-1">I like your company</label>
+                    <button id="push" type="button" disabled>Send</button>
+                </div>
+                <div class="contact_info">
+                    <p>
+                        69/A, Some Street Name<br>
+                        Your City, code 01234<br>
+                        Country Name
+                    </p>
+                    <p>
+                        +880 123 456 78 98<br>
+                        +860 987 648 74 95
+                    </p>
+                    <p>
+                        company@mail.com<br>
+                        sales@mail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="smallFooter d-flex justify-content-between">
+            <p>Copyright © Company. All Rights Reserved 2016</p>
+            <div class="social d-flex justify-content-between">
+                <a href=""><i class="fa fa-facebook" style="color:#6782b8;" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" style="color:#e66952;" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" style="color:#71d6fa;" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-dribbble" style="color:#e9779d;" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
 
   <script src="scripts/booking.js"></script>
+  
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
