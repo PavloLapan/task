@@ -8,7 +8,7 @@
 .pl-3{padding-left: 3rem }
 .pr-3{padding-right: 3rem;}
 footer .container-fluid {
-    background-image: url('/img/bg-footer.jpg');
+    background-image: url('../img/bg-footer.jpg');
     padding: 0;
     margin: 153px 0 0; }
     footer .container-fluid .text-center h2 {
