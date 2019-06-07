@@ -40,7 +40,7 @@ footer .container-fluid .text-center p {
     width: 65%;
     margin: 0 auto;
     font-size: 14px;
-    color: #9a9999;
+    color: aqua;
     padding: 7px 0 32px;
 }
 
@@ -190,9 +190,7 @@ footer .container-fluid .smallFooter .social a {
 
 @media screen and (max-width: 1024px) {
 
-    footer .container-fluid {
-        margin-top: 50px;
-    }
+   
 
     footer .container-fluid .map_wrapper .contact_wrap {
         flex-direction: column;
@@ -234,4 +232,27 @@ footer .container-fluid .smallFooter .social a {
         justify-content: space-around !important;
         width: 100%;
     }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .pl-3 {
+        padding-left: 1rem;
+    }
+
+    .mediasmall{
+        flex-direction: column;
+    }
+    footer .container-fluid .map_wrapper .contact_wrap .inputs textarea {
+        width: 82%;}
+        footer .container-fluid .map_wrapper .contact_wrap .inputs button {
+            background: #ffff00;
+            position: absolute;
+            border-radius: 5px;
+            bottom: -5px;
+            right: 34px;
+            padding: 10px 25px;
+        }
+
 }
