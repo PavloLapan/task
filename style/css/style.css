@@ -1,3 +1,6 @@
+body{
+  min-width: 320px;
+}
 .container-fluid-full {
   background-image: url('../../img/main-bg.jpg');
   margin: auto;
@@ -38,4 +41,26 @@
 }
 .wrapper .fa-chevron-down:hover {
   color: #cf9898;
+}
+
+@media screen and (max-width: 825px){
+  .wrapper h3 {
+    font-size: 3rem;
+}
+.wrapper .logo {
+  border-radius: 50%;
+  width: 300px;
+  max-width: 40%;
+}
+}
+
+@media screen and (max-width: 576px){
+  .wrapper h3 {
+    font-size: 2rem;
+}
+.wrapper .logo {
+  border-radius: 50%;
+  width: 300px;
+  max-width: 50%;
+}
 }
