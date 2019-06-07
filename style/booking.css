@@ -120,3 +120,27 @@
 .book-info {
     width: 100%;
 }
+
+@media screen and  (max-width: 900px){
+  .modal-content{
+    width: 60%;
+  }
+}
+
+@media screen and  (max-width: 600px){
+  .modal-body{
+    padding: 12px 20px;
+  }
+  .booking-container p {
+    font-size: 3vh;
+}
+}
+
+@media screen and  (max-width: 475px){
+  .modal-content{
+    width: 90%;
+  }
+  .modal-body{
+    padding: 12px 15px;
+  }
+}

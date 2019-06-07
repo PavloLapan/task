@@ -1,6 +1,10 @@
+.about-us{
+    height: 100vh;
+}
 .about-oxygen{
     background-image: url('../../img/bg-about.jpg');
-    height: 400px;
+    background-size: cover;
+    height: 50vh;
     width: 100%;
 }
     .about-oxygen .shadow-box{
@@ -8,7 +12,7 @@
         width: 80%;
         height: 250px;
         margin: auto;
-
+        margin-top: 10vh;
         background: rgba(155,155,155,0.4);
 
     }
@@ -18,7 +22,9 @@
         font-size: 4rem;
         color: blue;
         padding-top: 30px;
+        margin-bottom: 30px;
     }
+
     .about-oxygen .shadow-box p{
         margin: auto;
         font-family: "Lato", serif;
@@ -28,7 +34,7 @@
 .carousel-wrapper {
     position: relative;
     width: 100%;
-    height: 420px;
+    height: 50vh;
 }
 
 .item-1{
@@ -102,6 +108,7 @@
     color: deepskyblue;
     font-family: "Lao MN", serif;
     font-size: 3rem;
+    
 }
 .carousel-item p{
     padding: 1rem;
@@ -109,3 +116,34 @@
     font-family: "Lao MN", serif;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 850px){
+    .about-oxygen .shadow-box h3{
+        font-size: 3rem; 
+    }
+    .about-oxygen .shadow-box p{
+        font-size: 1.4rem;
+    }
+  } 
+
+@media screen and (max-width: 650px){
+    .about-oxygen .shadow-box h3{
+        font-size: 2rem; 
+    }
+    .about-oxygen .shadow-box p{
+        font-size: 1.2rem;
+    }
+    .carousel-item p {
+        
+        font-size: 0.76rem;
+    }
+  } 
+@media screen and (max-width: 390px){
+   
+    .about-oxygen .shadow-box h3{
+        font-size: 1.5rem; 
+    }
+    .about-oxygen .shadow-box p{
+        font-size: 1em;
+    }
+  } 
