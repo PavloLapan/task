@@ -255,4 +255,20 @@ footer .container-fluid .smallFooter .social a {
             padding: 10px 25px;
         }
 
+        footer .container-fluid .map_wrapper .contact_wrap .inputs .styled-checkbox {
+            margin-top: 10px;
+            position: relative;
+            opacity: 0;
+        }
+        footer .container-fluid .text-center h2 {
+            text-transform: uppercase;
+            color: #232323;
+            font-size: 36px;
+            padding-top: 5rem;
+        }
+        footer .container-fluid .map_wrapper .contact_wrap .inputs {
+            padding: 15px;
+            width: 93%;
+        }
+
 }
